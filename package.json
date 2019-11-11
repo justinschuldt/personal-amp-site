@@ -1,0 +1,26 @@
+{
+  "name": "personal-amp-site",
+  "version": "1.0.0",
+  "description": "Uses Gulp to validate AMP markup, remove unused css, insert css inline, and minify.",
+  "keywords": [
+    "amp",
+    "amphtml",
+    "bootstrap",
+    "css",
+    "fontawesome",
+    "gulp"
+  ],
+  "author": "Justin Schuldt",
+  "license": "MIT",
+  "devDependencies": {
+    "amphtml-validator": "^1.0.18",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.2.2",
+    "gulp-html-replace": "^1.6.2",
+    "gulp-purifycss": "^0.2.0",
+    "purifycss": "^1.1.9"
+  },
+  "dependencies": {
+    "gulp-minify-html-2": "^1.0.0"
+  }
+}
